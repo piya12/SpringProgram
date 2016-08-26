@@ -1,0 +1,1 @@
+<jsp:forward page="loginpage.form"></jsp:forward>

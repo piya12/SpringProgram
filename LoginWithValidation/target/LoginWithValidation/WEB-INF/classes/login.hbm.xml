@@ -1,0 +1,11 @@
+<?xml version="1.0"?> 
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0
+//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+<class name="com.sathya.spring.mvc.Login" table="login">
+<id name="uname" length="10"/>
+<property name="pwd" length="10"/>
+</class>
+</hibernate-mapping>
