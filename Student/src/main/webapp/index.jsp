@@ -2,7 +2,7 @@
 <head>
 
 </head>
-<body bgcolor="#6495ED">
+<body bgcolor="pink"> 
 
 	
 	<div class="container">
