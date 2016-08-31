@@ -1,7 +1,7 @@
 jdbc.driverClassName=com.mysql.jdbc.Driver
 jdbc.url=jdbc:mysql://localhost:3306/country
 jdbc.username=root
-jdbc.password=bridgeit
+jdbc.password=root
 
 dbcp.maxActive=100
 dbcp.maxIdle=30

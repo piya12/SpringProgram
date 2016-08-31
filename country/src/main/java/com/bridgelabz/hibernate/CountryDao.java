@@ -15,5 +15,4 @@ public interface CountryDao {
 	public void save(Country country);
 
 	public void delete(Country country);
-
 }

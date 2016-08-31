@@ -38,7 +38,7 @@ public class CountryForm {
 
 		SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MMM-yyyy");
 		dateFormat.setLenient(false);
-		dataBinder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
+		dataBinder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true)); // validation
 	}
 
 	@RequestMapping(method = RequestMethod.GET)
@@ -46,11 +46,12 @@ public class CountryForm {
 		if (countryId == null) {
 			return new Country();
 		} else {
-			return worldService.getCountryById(countryId);
+			return worldService.getCountryById(countryId); // InterfaceWorld
+															// Service
 		}
 	}
 
-	@RequestMapping(params = "create", method = RequestMethod.POST)
+	@RequestMapping(params = "create", method = RequestMethod.POST) // form
 	public String create(Country country, BindingResult result, SessionStatus status) {
 		return update(country, result, status);
 	}
