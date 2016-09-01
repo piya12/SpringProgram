@@ -1,0 +1,6 @@
+levelup/world/domain/service/WorldService.class
+levelup/world/web/CountryForm.class
+levelup/world/web/CountryController.class
+levelup/world/domain/validation/CountryValidator.class
+levelup/world/domain/service/MockWorldService.class
+levelup/world/domain/Country.class
