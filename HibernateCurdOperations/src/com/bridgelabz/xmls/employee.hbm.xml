@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate//Hibernate mappping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.bridgelabz.pojo.Employee">
+		<id name="empNo"></id>
+		<property name="empName" length="10"/>
+		<property name="empSal"/>
+		<property name="deptNo"/>
+	</class>
+</hibernate-mapping>
